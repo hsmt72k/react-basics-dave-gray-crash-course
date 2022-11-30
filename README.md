@@ -148,6 +148,23 @@ CHAPTER 22.
 [[06:27](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=387)] React プロジェクトファイルを見る  
 [[11:12](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=672)] サンプルの React プロジェクトを実行する
 
+### Topics
+
+- Node.js をインストール
+- ブラウザに React DevTools 拡張をインストール
+- create-react-app で React プロジェクト作成
+- VSCode に dsznajder.es7-react-js-snippets 拡張機能をインストール
+- preferences で emmet を検索して、User の settings.json 、 "emmet.includeLanguages": に "javascript": "javascriptreact" を追加
+- `code .` コマンドで新しい VSCode インスタンスを開く
+- create-react-app で作られる各ディレクトリ、ファイルの説明
+- App.test.js, reportWebVitals.js, setupTests.js, logo.svg の削除
+- 削除したファイルを使用している箇所のソースコードを修正
+- 編集したファイルのファイル名は VSCode で濃いクリーム色になり、Git の検知で Modified(変更)の略として「M」が表示される
+- getElementById('root') の説明
+- npm start で開発サーバ起動
+- ホットリロードの動作確認
+- Ctrl + C キーで開発サーバの起動停止
+
 <h2 id="app_component_and_jsx">CHAPTER 02. App Component & JSX</h2>
 
 <a href="https://www.youtube.com/embed/jzd70d0yc7E?autoplay=1&start=5">
