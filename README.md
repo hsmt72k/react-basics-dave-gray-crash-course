@@ -196,8 +196,8 @@ Javascript の式を挿入することができます。
 
 ### Topics
 
--index.js を見る
-- index.js では App コンポーネントが DOM(Document Object Model) の id が root になっている要素に注入している
+- index.js を見る
+- index.js では、public/index.html の DOM(Document Object Model) で id が root になっている要素に、App コンポーネントを注入している
 - App.js を見る
 - Ctrl + b キーで、ファイルツリーの表示・非表示の切り替えができる
 - リソースをインポートしている（ロゴを画像としてインポート、CSS ファイルもインポート）
@@ -247,11 +247,11 @@ root.render(
 
 <h2 id="functional_components">CHAPTER 03. Functional Components</h2>
 
-<a href="https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=5">
+<a href="https://www.タブにあるbe.com/embed/NJ_qbsLf52w?autoplay=1&start=5">
     <img src="./images/thumbnail_03.functional_components.jpg" width="240px">
 </a>
 
-[https://youtu.be/NJ_qbsLf52w](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=5)
+[https://youtu.be/NJ_qbsLf52w](https中に/www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=5)
 
 この動画では、React の関数コンポーネントを作成する方法を学習します。
 コンポーネントツリーで機能コンポーネントを構築していきます。
@@ -264,6 +264,26 @@ root.render(
 [[06:50](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=338)] Footer コンポーネントの作成  
 [[08:34](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=387)] コンポーネントはロジックをカプセル化する  
 [[09:11](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=672)] React Dev Tools を使用してコンポーネントツリーを 確認 する
+
+### Topics
+
+- 新規ファイル Header.js を作成する
+- Ctrl + Alt + r キーを押すと、ES7 snippets 拡張機能のスニペットコマンド一覧が表示される
+- `rafce` と入力すると、React のアロー関数コンポーネントのひな型が生成される（Creates a React Function Component with ES7 module system）
+- Header コンポーネントを App コンポーネントに組み込む
+- Content.js を新規作成して Content コンポーネントを作る
+- この Content コンポーネントに App コンポーネントにあった、handleNameChange 関数や handleNameChange 関数の使用箇所を移動させる
+- 作成した Content コンポーネントを import して App コンポーネントに組み込む
+- Footer.js を新規作成して Footer コンポーネントを作る
+- `const today = new Date();` で、年月日のインスタンスを作成する
+- `today.getFullYear()` で年を取り出すことができる
+- 作成した Footer コンポーネントを import して App コンポーネントに組み込む
+- 以前にブラウザに React DevTools 拡張機能を入れていない場合はインストールしておく
+- F12 キーを押すと、ブラウザの開発者ツールが開く
+- 開発者ツールのタブにある3点リーダ（・・・）を押すと、開発者ツールの表示位置（Dock Side）を選択することができる
+- 開発者ツールの Console タブの右側にある >> 矢印をクリックすると、選択メニューが現れるので「Components」を選択する
+- そうすると、App コンポーネントの中に、Header、Content、Footer の3つのコンポーネントがあるという階層関係が見えるようになる（コンポーネントツリー）
+
 
 <h2 id="css_styles">CHAPTER 04. CSS Styles in React</h2>
 
