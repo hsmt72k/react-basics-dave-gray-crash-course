@@ -154,7 +154,16 @@ CHAPTER 22.
 - ブラウザに React DevTools 拡張をインストール
 - create-react-app で React プロジェクト作成
 - VSCode に dsznajder.es7-react-js-snippets 拡張機能をインストール
-- preferences で emmet を検索して、User の settings.json 、 "emmet.includeLanguages": に "javascript": "javascriptreact" を追加
+- preferences で emmet を検索して、User の settings.json に以下のプロパティと値を追加
+
+``` json
+{
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+}
+ ```
+
 - `code .` コマンドで新しい VSCode インスタンスを開く
 - create-react-app で作られる各ディレクトリ、ファイルの説明
 - App.test.js, reportWebVitals.js, setupTests.js, logo.svg の削除
@@ -184,6 +193,57 @@ Javascript の式を挿入することができます。
 [[02:18](https://www.youtube.com/embed/jzd70d0yc7E?autoplay=1&start=263)] データをテキストとしてレンダリングする  
 [[04:03](https://www.youtube.com/embed/jzd70d0yc7E?autoplay=1&start=452)] JSX にコメントを追加するには  
 [[05:38](https://www.youtube.com/embed/jzd70d0yc7E?autoplay=1&start=503)] JSX に Javascript の式を記述する
+
+### Topics
+
+-index.js を見る
+- index.js では App コンポーネントが DOM(Document Object Model) の id が root になっている要素に注入している
+- App.js を見る
+- Ctrl + b キーで、ファイルツリーの表示・非表示の切り替えができる
+- リソースをインポートしている（ロゴを画像としてインポート、CSS ファイルもインポート）
+- コンポーネントが関数であることがわかる
+- 昔はクラスコンポーネントがよく使われていたが、今は関数コンポーネントを使うのが主流
+- export default 宣言は、そのファイルのデフォルトとして後ろに続くものを export するという宣言
+- export default されたものを使いたい時、import する側は任意の名前を付けることができる
+
+`Export 側: application.js`
+``` js
+const greet = () => {
+    return (
+        <>
+            <p>Hello.</p>
+        </>
+    );
+}
+
+export default greet;
+```
+
+`Import 側: index.js`
+``` js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import Apple from './application';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Apple />
+  </React.StrictMode>
+);
+```
+
+- return 節では、JSX を返す
+- 関数コンポーネント内では JavaScript を追加でき、変数や関数を定義できる
+- JSX 内では定義した変数や関数を参照できる
+- JSX 内で参照したい変数は、カーリーブレイス（波かっこ: {}）で囲む
+- 配列そのものを参照して表示させることはできる
+- オブジェクトそのものを参照して表示させることはできない（エラーになる）
+- boolean を参照して表示しようとしてもエラーにはならないが、何も標示されない
+- コメントアウトしたい箇所を選択した状態で、Shift + Alt + a キーを押すと、選択箇所が `{/* <p>{name}</p> */}` のような状態でコメントアウトされる
+- 配列 names で設定した3名の名前からランダムに選んだ1名の名前を返す、handleNameChange 関数を作る
+- handleNameChange 関数を使って、画面に「Hello <ランダムな名前>!」と表示させる
 
 <h2 id="functional_components">CHAPTER 03. Functional Components</h2>
 
