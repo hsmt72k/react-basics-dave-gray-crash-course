@@ -251,7 +251,7 @@ root.render(
     <img src="./images/thumbnail_03.functional_components.jpg" width="240px">
 </a>
 
-[https://youtu.be/NJ_qbsLf52w](https中に/www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=5)
+[https://youtu.be/NJ_qbsLf52w](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=5)
 
 この動画では、React の関数コンポーネントを作成する方法を学習します。
 コンポーネントツリーで機能コンポーネントを構築していきます。
