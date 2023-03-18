@@ -247,23 +247,23 @@ root.render(
 
 <h2 id="functional_components">CHAPTER 03. Functional Components</h2>
 
-<a href="https://www.タブにあるbe.com/embed/NJ_qbsLf52w?autoplay=1&start=5">
+<a href="https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=5">
     <img src="./images/thumbnail_03.functional_components.jpg" width="240px">
 </a>
 
-[https://youtu.be/NJ_qbsLf52w](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=5)
+[https://youtu.be/NJ_qbsLf52w](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=5)
 
 この動画では、React の関数コンポーネントを作成する方法を学習します。
 コンポーネントツリーで機能コンポーネントを構築していきます。
 
-[[00:05](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=5)] はじめに  
-[[00:53](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=50)] VSCode の ES7 React JS Snippets 拡張機能  
-[[01:14](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=88)] コンポーネントのインポート  
-[[01:40](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=138)] Header コンポーネントの作成    
-[[04:51](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=243)] Content コンポーネントの作成  
-[[06:50](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=338)] Footer コンポーネントの作成  
-[[08:34](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=387)] コンポーネントはロジックをカプセル化する  
-[[09:11](https://www.youtube.com/embed/TeeAp5zkYnI?autoplay=1&start=672)] React Dev Tools を使用してコンポーネントツリーを 確認 する
+[[00:05](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=5)] はじめに  
+[[00:53](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=50)] VSCode の ES7 React JS Snippets 拡張機能  
+[[01:14](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=88)] コンポーネントのインポート  
+[[01:40](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=138)] Header コンポーネントの作成    
+[[04:51](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=243)] Content コンポーネントの作成  
+[[06:50](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=338)] Footer コンポーネントの作成  
+[[08:34](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=387)] コンポーネントはロジックをカプセル化する  
+[[09:11](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=672)] React Dev Tools を使用してコンポーネントツリーを 確認 する
 
 ### Topics
 
