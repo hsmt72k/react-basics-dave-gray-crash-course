@@ -257,13 +257,13 @@ root.render(
 コンポーネントツリーで機能コンポーネントを構築していきます。
 
 [[00:05](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=5)] はじめに  
-[[00:53](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=50)] VSCode の ES7 React JS Snippets 拡張機能  
-[[01:14](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=88)] コンポーネントのインポート  
-[[01:40](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=138)] Header コンポーネントの作成    
-[[04:51](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=243)] Content コンポーネントの作成  
-[[06:50](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=338)] Footer コンポーネントの作成  
-[[08:34](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=387)] コンポーネントはロジックをカプセル化する  
-[[09:11](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=672)] React Dev Tools を使用してコンポーネントツリーを 確認 する
+[[00:53](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=53)] VSCode の ES7 React JS Snippets 拡張機能  
+[[01:14](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=74)] コンポーネントのインポート  
+[[01:40](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=100)] Header コンポーネントの作成    
+[[04:51](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=291)] Content コンポーネントの作成  
+[[06:50](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=410)] Footer コンポーネントの作成  
+[[08:34](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=514)] コンポーネントはロジックをカプセル化する  
+[[09:11](https://www.youtube.com/embed/NJ_qbsLf52w?autoplay=1&start=551)] React Dev Tools を使用してコンポーネントツリーを 確認 する
 
 ### Topics
 
