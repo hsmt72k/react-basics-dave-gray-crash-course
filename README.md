@@ -425,7 +425,7 @@ React に制御されたフォーム入力を React の状態にリンクさせ�
 [[33:58](https://www.youtube.com/embed/r5ombQn3fHY?autoplay=1&start=2038)] FormInput コンポーネントの表示確認  
 [[34:32](https://www.youtube.com/embed/r5ombQn3fHY?autoplay=1&start=2072)] useRef フック   
 
-<h2 id="project_challenge">CHAPTER 10. Controlled Form Inputs</h2>
+<h2 id="project_challenge">CHAPTER 10. 腕試し Project Challenge</h2>
 
 <a href="https://www.youtube.com/embed/oWIqiVAK1Wo?autoplay=1&start=5">
     <img src="./images/thumbnail_10.project_challenge.jpg" width="240px">
